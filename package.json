@@ -1,0 +1,51 @@
+{
+  "name": "antar-basu-portfolio",
+  "homepage": "https://antar-basu.github.io",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "author": "antarbasu7",
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "gh-pages": "^5.0.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.3",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "react-parallax-tilt": "^1.7.150",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.13.0",
+    "react-simple-typewriter": "^5.0.1",
+    "recharts": "^2.7.2",
+    "sort-by": "^1.2.0",
+    "swiper": "^9.4.1",
+    "tsparticles": "^2.10.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.1.6",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "postcss": "^8.4.24",
+    "styled-components": "^5.3.10",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}
