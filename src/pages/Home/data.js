@@ -9,6 +9,11 @@ import myPhoto8 from '../../assets/img8.jpeg';
 import myPhoto9 from '../../assets/zeeve1.png';
 import myPhoto10 from '../../assets/zeeve2.png';
 import myPhoto11 from '../../assets/zeeve3.png';
+import myPhoto12 from '../../assets/ew1.png';
+import myPhoto13 from '../../assets/ew2.png';
+import myPhoto14 from '../../assets/ew3.png';
+import myPhoto15 from '../../assets/ew4.png';
+import myPhoto16 from '../../assets/ew5.png';
 
 const data = [
     {
@@ -33,30 +38,29 @@ const data = [
         liveLink: 'https://www.zeeve.io/',
         gitLink: 'https://github.com/Zeeve-App/'
     },
-    // {
-    //     id: 2,
-    //     title: 'happy Playtime',
-    //     subTitle: 'full stack',
-    //     images: [
-    //         'https://i.ibb.co/SJxVMjm/Screenshot-2023-08-19-175424.png',
-    //         'https://i.ibb.co/FXgLRqQ/Screenshot-2023-08-19-175403.png',
-    //         'https://i.ibb.co/ZdngKrw/Screenshot-2023-08-19-175541.png',
-    //         'https://i.ibb.co/1bvr4tY/Screenshot-2023-08-19-175444.png',
-    //         'https://i.ibb.co/cNFLBV1/Screenshot-2023-08-19-175506.png',
-    //         'https://i.ibb.co/FKBxFkm/Screenshot-2023-08-19-175518.png'
-    //     ],
-    //     disc: " Showcase your toys online. Add and display toy details seamlessly on the website, celebrating cherished playthings.",
-    //     features: [
-    //         'Explore a wide range of toys on a fully responsive website.',
-    //         'Authenticated users can add, update, and delete toys from their collection.',
-    //         'Newly added toys instantly appear on the homepage, showcasing your cherished collection.',
-    //         'Discover toys easily with organized categories for an enhanced browsing experience.',
-    //         'Firebase integration ensures safe and seamless user authentication for a worry-free experience.'
-    //     ],
-    //     tech: ['react js', 'node js', 'express js', 'firebase', 'mongoDB', 'tailwind'],
-    //     liveLink: 'https://rs-happy-playtime.web.app',
-    //     gitLink: 'https://github.com/rajib-sadhu/happy-playtime-client'
-    // },
+    {
+        id: 2,
+        title: 'Energy Web',
+        subTitle: 'full stack',
+        images: [
+            myPhoto12,
+            myPhoto13,
+            myPhoto14,
+            myPhoto15,
+            myPhoto16,
+        ],
+        disc: " Showcase your toys online. Add and display toy details seamlessly on the website, celebrating cherished playthings.",
+        features: [
+            'Explore a wide range of toys on a fully responsive website.',
+            'Authenticated users can add, update, and delete toys from their collection.',
+            'Newly added toys instantly appear on the homepage, showcasing your cherished collection.',
+            'Discover toys easily with organized categories for an enhanced browsing experience.',
+            'Firebase integration ensures safe and seamless user authentication for a worry-free experience.'
+        ],
+        tech: ['next js', 'node js', 'express js', 'postgresql', 'blockchain', 'tailwind'],
+        liveLink: 'https://launchpad.energyweb.org/',
+        gitLink: 'https://www.energyweb.org/'
+    },
     // {
     //     id: 8,
     //     title: 'Weather App',
