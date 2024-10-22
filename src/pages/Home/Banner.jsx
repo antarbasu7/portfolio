@@ -23,7 +23,7 @@ const Banner = () => {
                     <h1 className='md:text-[4.3rem] text-4xl font-semibold tracking-wider'> <span className='text-sm block ms-1 lg:mb-3 md:mb-1'>I am</span> Antar Basu</h1>
                     <div className='flex justify-between md:text-xl text-sm uppercase font-semibold h-[2rem] text-[#a6fcb1] mt-3'>
                         <Typewriter
-                            words={['Full Stack Engineer', 'Next JS Developer', 'React JS Developer', 'Backend Engineer (Python, NodeJS)', 'Blockchain Enthusiast ', 'DevOps (AWS)']}
+                            words={['Full Stack Engineer', 'Next JS Developer', 'React JS Developer', 'Backend Engineer (Python, NodeJS)', 'Blockchain Enthusiast ', 'DevOps (AWS, Docker, Git)']}
                             loop={true}
                             cursor
                             cursorStyle=''
