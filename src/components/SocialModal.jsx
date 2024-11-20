@@ -25,7 +25,7 @@ const SocialModal = ({ handleCloseModal }) => {
                         <div className='text-center mt-10 font-semibold md:text-xl'>
                             <div className='flex md:items-center md:flex-row flex-col md:gap-3 justify-center'>
                                 <BiLogoGmail className='md:text-2xl text-red-500' />
-                                <h2>antarbasu7@gmail.com</h2>
+                                <h2>antarbasu.official@gmail.com</h2>
                             </div>
                             <div className='mt-5'>
                                 <a href='#contact' onClick={handleCloseModal} className='text-sm text-sky-600 underline' >Send Direct</a>
