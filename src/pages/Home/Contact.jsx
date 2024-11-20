@@ -45,7 +45,7 @@ const Contact = () => {
                             </div>
                             <div className="flex items-center mt-5 gap-2 md:text-xl font-medium">
                                 <BiLogoGmail className='md:text-4xl text-red-500' />
-                                <h2>antarbasu7@gmail.com</h2>
+                                <h2>antarbasu.official@gmail.com</h2>
                             </div>
                         </div>
                     </div>
