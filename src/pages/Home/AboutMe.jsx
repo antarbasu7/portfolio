@@ -1,6 +1,7 @@
 
 import { Fade, Rotate, Slide } from 'react-awesome-reveal';
 import Tilt from 'react-parallax-tilt';
+import flykey from '../../assets/fly_sky.jpeg';
 
 const AboutMe = () => {
 
@@ -31,7 +32,7 @@ const AboutMe = () => {
                     <Slide direction='right' >
                         <Rotate>
                             <Tilt glareEnable={true} glareMaxOpacity={0.8} glareColor="#ffffff" glarePosition="bottom" glareBorderRadius="20px">
-                                <img className="w-[25rem] rounded-full" src="src/assets/fly_sky.jpeg" alt="notfound" />
+                                <img className="w-[25rem] rounded-full" src={flykey} alt="notfound" />
                             </Tilt>
                         </Rotate>
                     </Slide>
